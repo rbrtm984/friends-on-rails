@@ -7,9 +7,9 @@
     <%= @friend.email %>  |  <%= @friend.phone %>  |  <%= @friend.twitter %>
   <hr class="my-4">
   <br/>
-  <p class="lead">
+  <div style="display: flex; align-items: center; gap: 10px;">
     <%= link_to "Edit", edit_friend_path(@friend), class:"btn btn-secondary" %>
     <%= link_to "Back", friends_path, class:"btn btn-dark" %>
-    <%= button_to "Remove", @friend, method: :delete, class:"btn btn-warning" %>
-  </p>
+    <%= button_to "Delete", @friend, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger', style: "display: inline;" %>
+  </div>
 </div>

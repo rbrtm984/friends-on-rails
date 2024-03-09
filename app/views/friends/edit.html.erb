@@ -4,7 +4,8 @@
 
 <br/>
 
-<div>
+<div style="display: flex; align-items: center; gap: 10px;">
   <%= link_to "Show", @friend, class:"btn btn-secondary" %> 
   <%= link_to "Back", friends_path, class:"btn btn-dark" %>
+  <%= button_to 'Delete', @friend, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger', style: "display: inline;" %>
 </div>
