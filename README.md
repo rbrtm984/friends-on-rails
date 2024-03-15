@@ -1,25 +1,9 @@
 # README
 
-Hello! This is a basic CRUD app I've been building to learn and implement Ruby on Rails. 
+This app can help you keep track of your friends' contact information.
 
-Things you may want to cover:
+I built it in preparation for a job that I didn't end up getting, but figured I'd keep the work public (why not?).
 
-* Ruby - 3.3
+I built this app following a guide published by John Elder, and all credit is due to him for the result.
 
-* Rails - 7.1
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The app is deployed on Heroku, and is built with Ruby, Rails, and Bootstrap.
