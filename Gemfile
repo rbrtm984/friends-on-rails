@@ -25,7 +25,6 @@ gem 'devise', '~> 4.9', '>= 4.9.3'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
-  gem "sqlite3", "~> 1.4"
 end
 
 group :development do
