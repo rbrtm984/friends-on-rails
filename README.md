@@ -1,11 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello! This is a basic CRUD app I've been building to learn and implement Ruby on Rails. 
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby - 3.3
+
+* Rails - 7.1
 
 * System dependencies
 
